@@ -127,6 +127,7 @@
                     <?=$this->lang->line('vedistato');?>
                 </button>
             </div>
+            
             <div class="input-field col-lg-12">
                 <div class="centre_box status_box">
                     <div class="row">
@@ -158,7 +159,7 @@
                             <p><span class="bold"><i class="fa fa-money"></i> <?= $this->lang->line('Anticipo_t');?></span><span id="anticipoc"></span></p>
                         </div>
                         <div class="col-md-12 col-lg-6 bio-row nofloat">
-                            <p><span class="bold"><i class="fa fa-euro"></i> <?= $this->lang->line('Prezzo_t');?> </span><span id="prezzoc"></span></p>
+                            <p><span class="bold"><i class="fa fa-money"></i> <?= $this->lang->line('Prezzo_t');?> </span><span id="prezzoc"></span></p>
                         </div>
                         <div class="col-md-12 col-lg-6 bio-row">
                             <p><span class="bold"><i class="fa fa-phone"></i> <?= $this->lang->line('Telefono_t');?> </span><span id="telefonoc"></span></p>
@@ -174,12 +175,24 @@
                     </div>
                 </div>
             </div>
+            
 
             <link rel="stylesheet" href="<?=site_url('assets/css/toastr.min.css');?>">
             <script src="<?=site_url('assets/js/toastr.min.js');?>"></script>
             <script src="<?=site_url('js/bootstrap.min.js'); ?>"></script>
 
-
+            <div class="input-field col-lg-12">
+                <a href="http://localhost/fix/paye/">
+                    <button>Pay Now</button>
+                </a>
+                <a href="http://localhost/fix/feedback/">
+                    <button>Feedback</button>
+                </a>
+                
+                <a href="http://localhost/quick/Script/submit-ticket">
+                    <button>Ticket</button>
+                </a>
+            </div>
             </body>
 
         </html>

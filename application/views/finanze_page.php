@@ -116,7 +116,7 @@ if (count($lista) <= 1) {
 						return x.getUTCDate();
 					},
 					yLabelFormat: function(y) {
-                        <?php if(strpos($valuta, '£')) echo "'".$valuta."' + return y.toString();";
+                        <?php if(strpos($valuta, '₹')) echo "'".$valuta."' + return y.toString();";
                         else echo "return y.toString() + '".$valuta."';";
                         ?>
 					}

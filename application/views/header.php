@@ -92,7 +92,23 @@
 							</a>
 						</li>
 						<li>
-                            <a class="hvr-bounce-to-right <?php if ('http://'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'] == site_url('finanze/')) {
+                            <a class="hvr-bounce-to-right <?php if ('http://'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'] == site_url('Anticipo_t/')) {
+    echo 'active';
+    } ?>" href="<?=site_url('Anticipo_/'); ?>">
+								<i class="fa fa-user"></i>
+								<span><?=$this->lang->line('Anticipo_');?></span>
+							</a>
+						</li>
+						<li>
+						<a class="hvr-bounce-to-right <?php if ('http://'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'] == site_url('Anticipo_t/')) {
+    echo 'active';
+    } ?>" href="<?=site_url('feedback/admin'); ?>">
+								<i class="fa fa-user"></i>
+								<span><?=$this->lang->line('feed');?></span>
+							</a>
+						</li>
+						<li>
+                            <a class="hvr-bounce-to-right <?php if ('http://'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'] == site_url('feedback/admin')) {
     echo 'active';
     } ?>" href="<?=site_url('finanze/'); ?>">
 								<i class="fa fa-bar-chart-o"></i>

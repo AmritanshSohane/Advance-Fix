@@ -1,3 +1,4 @@
+
 jQuery(document).ready(function() {
     var postJSON;
     postJSON = 'aa';
@@ -69,7 +70,15 @@ jQuery(document).ready(function() {
         var anticipo = jQuery('#anticipo1').val();
         var prezzo = jQuery('#prezzo1').val();
         var commenti = jQuery('#commenti1').val();
-        var codice = jQuery('#codice').val();
+        var codice = generateRandom4DigitValue();
+
+// Function to generate a random 4-digit value
+function generateRandom4DigitValue() {
+  var min = 1000; // Minimum 4-digit value (inclusive)
+  var max = 9999; // Maximum 4-digit value (inclusive)
+  var randomValue = Math.floor(Math.random() * (max - min + 1)) + min;
+  return randomValue.toString(); // Convert the value to a string
+}
         var status = jQuery('#status_edit').val();
         var custom = {};
 

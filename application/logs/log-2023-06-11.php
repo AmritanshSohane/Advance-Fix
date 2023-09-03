@@ -1,0 +1,30 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2023-06-11 08:04:21 --> Language file contains no data: language/english/guest_lang.php
+ERROR - 2023-06-11 08:04:22 --> Language file contains no data: language/english/guest_lang.php
+ERROR - 2023-06-11 08:04:22 --> Language file contains no data: language/english/guest_lang.php
+ERROR - 2023-06-11 08:04:22 --> Language file contains no data: language/english/guest_lang.php
+ERROR - 2023-06-11 08:09:24 --> Could not find the language line "test"
+ERROR - 2023-06-11 08:09:25 --> Language file contains no data: language/english/guest_lang.php
+ERROR - 2023-06-11 08:09:25 --> Language file contains no data: language/english/guest_lang.php
+ERROR - 2023-06-11 08:09:25 --> Language file contains no data: language/english/guest_lang.php
+ERROR - 2023-06-11 08:16:43 --> Language file contains no data: language/english/guest_lang.php
+ERROR - 2023-06-11 08:16:43 --> Language file contains no data: language/english/guest_lang.php
+ERROR - 2023-06-11 08:16:43 --> Language file contains no data: language/english/guest_lang.php
+ERROR - 2023-06-11 08:19:32 --> Language file contains no data: language/english/guest_lang.php
+ERROR - 2023-06-11 08:19:32 --> Language file contains no data: language/english/guest_lang.php
+ERROR - 2023-06-11 08:19:32 --> Language file contains no data: language/english/guest_lang.php
+ERROR - 2023-06-11 08:19:36 --> 404 Page Not Found --> Political
+ERROR - 2023-06-11 08:19:55 --> Language file contains no data: language/english/guest_lang.php
+ERROR - 2023-06-11 08:19:57 --> Language file contains no data: language/english/guest_lang.php
+ERROR - 2023-06-11 08:19:57 --> Language file contains no data: language/english/guest_lang.php
+ERROR - 2023-06-11 08:19:58 --> Language file contains no data: language/english/guest_lang.php
+ERROR - 2023-06-11 08:42:28 --> Language file contains no data: language/english/guest_lang.php
+ERROR - 2023-06-11 08:42:28 --> Language file contains no data: language/english/guest_lang.php
+ERROR - 2023-06-11 08:42:28 --> Language file contains no data: language/english/guest_lang.php
+ERROR - 2023-06-11 08:43:34 --> Language file contains no data: language/english/guest_lang.php
+ERROR - 2023-06-11 08:43:34 --> Language file contains no data: language/english/guest_lang.php
+ERROR - 2023-06-11 08:43:34 --> Language file contains no data: language/english/guest_lang.php
+ERROR - 2023-06-11 08:46:21 --> Language file contains no data: language/english/guest_lang.php
+ERROR - 2023-06-11 08:46:21 --> Language file contains no data: language/english/guest_lang.php
+ERROR - 2023-06-11 08:46:21 --> Language file contains no data: language/english/guest_lang.php

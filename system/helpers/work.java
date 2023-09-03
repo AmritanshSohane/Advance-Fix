@@ -1,5 +1,5 @@
 public class work { 
-    
+    int data;
     work left;
     work right;
     public work(int da, work le, work ri) {
@@ -18,8 +18,10 @@ public class work {
         recur(wo7);
     } 
     public static void recur(work w1){
-        if(w1.left==null||w1.right==null){
+        if(w1.left==null&&w1.right==null){
             return;
+        }else{
+            System.out.println(w1.data);
         }
     }
 }

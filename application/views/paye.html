@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Razorpay Payment Form</title>
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</head>
+<body>
+  <h1>Razorpay Payment Form</h1>
+
+  <form action="payment.php" method="POST">
+    <label for="amount">Amount:</label>
+    <input type="text" name="amount" id="amount" required><br><br>
+
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required><br><br>
+
+    <input type="submit" value="Pay Now">
+  </form>
+
+  <script>
+    // Configure Razorpay checkout options
+    var options = {
+      key: 'rzp_test_A3QTvigpAenazA',
+      amount: '', // amount will be set dynamically
+      currency: 'INR',
+      name: '', // name will be set dynamically
+      description: 'Test Payment',
+      handler: function(response) {
+        // Handle the payment success callback
+        alert('Payment successful! Payment ID: ' + response.razorpay_payment_id);
+      },
+      prefill: {
+        name: '', // name will be set dynamically
+        email: '' // email will be set dynamically
+      }
+    };
+
+    // Handle form submission
+    document.querySelector('form').addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      var amount = document.getElementById('amount').value;
+      var name = document.getElementById('name').value;
+      var email = document.getElementById('email').value;
+
+      // Update the options with dynamic values
+      options.amount = amount * 100; // amount in paise
+      options.name = name;
+      options.prefill.name = name;
+      options.prefill.email = email;
+
+      // Create Razorpay checkout instance
+      var rzp = new Razorpay(options);
+
+      // Open the Razorpay checkout form
+      rzp.open();
+    });
+  </script>
+</body>
+</html>
+<html>
+<head>
+
+  <style>
+    body {
+      background-color: #3c88a8;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 3px;
+    }
+
+    input[type="submit"] {
+      background-color: #fff;
+      color: #3c88a8;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #3c88a8;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  
+
+  <script>
+    // Configure Razorpay checkout options and JavaScript code remains the same
+    // ...
+  </script>
+</body>
+</html>

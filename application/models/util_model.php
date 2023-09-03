@@ -80,7 +80,7 @@ class Util_Model extends CI_Model
         log_message('error', 'sending email with content: '.$content);
 
         $this->load->library('email');
-        $this->email->from('support@mammothology.com', 'Mammothology.com');
+        $this->email->from('amrit@dsmnru.com', 'Mammothology.com');
         $this->email->to($email, 'User Name');
         $this->email->subject('Forgot Password');
 
