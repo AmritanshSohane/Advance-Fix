@@ -25,8 +25,5 @@ FIRST Download
 **LOGIN DETAILS** 
 
 Admin
-user: demo@demo.com
-pass: demo
-
-****** https:1sourcecodr.blogspot.com ******
-Subcribe my You tube Channel **** 1 Source code ****
+user: amrit@dsmnru.com
+pass: amrit
