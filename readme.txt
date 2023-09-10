@@ -19,7 +19,7 @@ FIRST Download
 
 6. Import dbfix.sql file(given inside the zip package in SQL file folder)
 
-7.Run the script http://localhost/Repair_Shop_Management_System
+7.Run the script http://localhost/Advance-Fix
 
 
 **LOGIN DETAILS** 
